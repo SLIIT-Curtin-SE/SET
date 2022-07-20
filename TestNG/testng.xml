@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">  
+<suite name="Suite">  
+<parameter name="a" value="5"/>  
+<parameter name="b" value="3"/>  
+<test name="Sum">   
+  <classes>  
+  <class name= "com.javatpoint.Sum"/>  
+  </classes>  
+  </test> <!-- Test -->  
+  <test name="Subtract">  
+  <classes>  
+  <class name="com.javatpoint.Subtract"/>  
+  </classes>  
+</suite> <!-- Suite --> 
